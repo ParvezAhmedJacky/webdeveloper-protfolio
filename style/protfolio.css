@@ -191,12 +191,19 @@ main {
 }
 
 /* fotter related style */
-
-.footer-column {
+footer{
     display: flex;
     background: #FFF8F3;
-    margin-top: 113px;
     padding: 130px 230px;
+    margin-top: 113px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+} 
+.social-link a{
+    margin-right: 25px;
 }
 
 .footer-title {
@@ -212,4 +219,15 @@ main {
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 30px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
