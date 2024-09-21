@@ -187,3 +187,9 @@ main {
     text-align: center;
     margin-top: 69px;
 }
+/* fotter related style */
+footer{
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 230px;
+}
